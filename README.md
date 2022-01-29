@@ -6,12 +6,12 @@ The `Either` type is defined here as the sum type of order _2_, i.e. the sum of 
 I found myself writing this type and variations of its functionalities on multiple occasions as I was learning Rust. 
 There is likely a better library out there for this (i.e., the actual [either](https://crates.io/crates/either) crate, hence the use of the name `eithr`), but any improvements are welcome! 
 
-Documentation still not complete.
+While documentation is not complete, this won't be added to (crates.io)[https://crates.io]. However, it can still be added as a dependencies using this repository.
 
 # Cargo
 ```toml
 [dependencies]
-eithr = "*"
+eithr = { git = "https://github.com/lctr/eithr.git" }
 ```
 
 # License
